@@ -107,7 +107,7 @@ function App() {
     event.preventDefault();
     setSalary(event.target.value);
     serErrorMessage(false);
-  },[setSalary]);
+  },[setSalary]); 
 
   const style = {
     position: 'absolute' as 'absolute',
