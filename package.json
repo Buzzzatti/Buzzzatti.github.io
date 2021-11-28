@@ -2,6 +2,7 @@
   "name": "billstest",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://buzzzatti.github.io/",
   "dependencies": {
     "@emotion/react": "^11.6.0",
     "@emotion/styled": "^11.6.0",
@@ -17,6 +18,7 @@
     "@types/node": "^12.0.0",
     "@types/react": "^17.0.36",
     "@types/react-dom": "^17.0.0",
+    "gh-pages": "^3.2.3",
     "node-sass": "^4.14.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -28,7 +30,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "",
+    "predeploy": ""
   },
   "eslintConfig": {
     "extends": [
